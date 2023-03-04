@@ -156,7 +156,7 @@ export default () => {
             ref={inputRef!}
             disabled={loading()}
             onKeyDown={handleKeydown}
-            placeholder="Enter something..."
+            placeholder="在此输入内容..."
             autocomplete="off"
             autofocus
             onInput={() => {
